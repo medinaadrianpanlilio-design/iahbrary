@@ -276,6 +276,9 @@ project is online.
 - The four short ambient loops in `assets/audio/` are demo assets from the
   original project. They are optional; replace them with licensed audio if you
   reuse the app.
+- `npm audit` reports 10 findings (5 moderate, 5 high) in the Expo/build
+  toolchain. The published force fix would downgrade Expo or cross a major Expo
+  Router version, so it is deferred rather than hidden.
 - RLS is covered by a manual checklist rather than an automated pgTAP suite.
 - The username availability RPC reveals whether a display name is taken. That is
   necessary for signup and exposes no email or account data.
