@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Snippet&display=swap');
+
+:root {
+  --font-display:
+    'Snippet', sans-serif;
+  --font-mono:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  --font-rounded: 'Snippet', sans-serif;
+  --font-serif: 'Snippet', sans-serif;
+}
